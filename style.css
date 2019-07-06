@@ -1,0 +1,45 @@
+.largura {
+  width: 700px;
+  margin: auto;
+}
+
+.menu {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  width: center;
+  margin: 30px;
+  margin-bottom: 30px;
+}
+
+.menu > a {
+  text-decoration: none;
+  color:rgb(190, 36, 36);
+  margin-right: 20px;
+}
+
+.menu > a:visited {
+  color:rgb(59, 48, 212);
+}
+.menu > a:hover {
+  color:rgb(0, 255, 128);
+}
+h1 {
+ font-family: 'Merriweather', serif;
+ padding-bottom: 5px;
+ border-bottom: 2px dotted black;
+}
+
+.conteudo {
+  font-family: 'Merriweather', serif;
+  line-height: 32px;
+}
+.img-principal{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.selecionado {
+  border-bottom: 2px dotted black;
+}
