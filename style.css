@@ -1,45 +1,62 @@
-.largura {
-  width: 700px;
+.largur {
+  width: 790px;
   margin: auto;
+  background: rgba(252, 151, 0, 0.596);
 }
 
 .menu {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size: 18px;
-  width: center;
-  margin: 30px;
+  text-align: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .menu > a {
   text-decoration: none;
-  color:rgb(190, 36, 36);
+  color: rgb(53, 248, 4);
   margin-right: 20px;
 }
 
 .menu > a:visited {
-  color:rgb(59, 48, 212);
+  color: rgb(2, 250, 35);
 }
+
 .menu > a:hover {
-  color:rgb(0, 255, 128);
+  color: rgb(245, 0, 0)
 }
-h1 {
- font-family: 'Merriweather', serif;
- padding-bottom: 5px;
- border-bottom: 2px dotted black;
+
+h1, h2{
+  font-family: 'Pacifico', cursive;
+  border-bottom: 2px dotted rgb(0, 0, 0);
+  border-top: 2px dotted rgb(0, 0, 0);
 }
 
 .conteudo {
-  font-family: 'Merriweather', serif;
+  font-family: 'Patrick Hand', cursive;
   line-height: 32px;
 }
-.img-principal{
+
+.img-principal {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  display: block;
 }
 
 .selecionado {
-  border-bottom: 2px dotted black;
+  border-bottom: 2px dotted rgb(255, 0, 191);
+}
+
+.img-principal1 {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.cor1 {
+  color: rgb(0, 89, 253);
+}
+
+.cor2 {
+  color: rgb(255, 0, 0);
 }
